@@ -1,0 +1,69 @@
+.contents .panel .table tbody tr td button.active{
+	 background: red;
+	
+}
+.contents .panel .table tbody tr td button.bull{
+	 background: #177EC1;
+	
+}
+.contents .panel{
+	margin-bottom: 0;
+}
+.contents .panel .table tbody tr td button {
+	 background: #ccc;
+	  color: #fff;
+	   padding: 2px 6px;
+	   border: 0;
+	   box-sizing: border-box;
+	   margin-right: 2px;
+	   font-size: 12px;
+	  outline: none;
+}
+#overlay {
+  background: rgba(0,0,0,0.5);
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100; /* 此处的图层要大于页面 */
+  _background-color:#a0a0a0; /* 解决IE6的不透明问题 */
+}
+.bcontent{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 90%;
+height: 90%;
+margin: auto;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+	background: #FFF;
+	
+}
+.bcontent .form-horizontal .box-body .form-group .tBtn {
+	text-align: right;
+}
+.bcontent .form-horizontal .box-body .form-group .tBtn button{
+	background: #177EC1;
+	padding: 5px 20px;
+	outline: none;
+	border: 0;
+	color: #fff;
+	
+}
+.bcontent .form-horizontal .box-body .form-group .qBtn {
+	text-align: left;
+}
+.bcontent .form-horizontal .box-body .form-group .qBtn button{
+	background: #177EC1;
+	padding: 5px 20px;
+	outline: none;
+	border: 0;
+	color: #fff;
+	
+}
