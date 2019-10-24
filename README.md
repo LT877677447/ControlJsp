@@ -7,5 +7,6 @@
 
 * Springboot脚手架+Mybatis注解SQL
 * web层注解驱动SpringMVC
+* jQuery、Ajax的web页面技术
 * 页面简单使用AmazeUI
 * org.apache.poi导出Excel
